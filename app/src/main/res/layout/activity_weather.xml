@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/indDateText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/indCityText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textColor="#FF635F5F"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/indWeatherIcon"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/indTempText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textColor="#FF635F5F"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/indDescText"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textColor="#635F5F"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/indHumidText"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="TextView"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

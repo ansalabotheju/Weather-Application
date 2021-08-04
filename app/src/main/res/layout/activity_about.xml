@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/aboutNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/aboutName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="       Ansala Botheju"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/aboutIndexLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Index Number:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/aboutIndex"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="       S13824"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
